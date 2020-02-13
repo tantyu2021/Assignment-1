@@ -118,3 +118,44 @@ var course = "JavaScript";
 var name = "Zak Ruvalcaba";
 let courseName = "Hello" + name\n"Welcome to the" + course;
 window.console.log(courseName);
+
+//STEP 15 - prompt for users respond
+var name = prompt("What is your name?", name);
+
+//STEP 16 -
+var course = JavaScript;
+var course = prompt("What class are you taking?", course);
+
+//STEP 17 - math, sum - 
+let x = 10;
+let y = 20;
+window.console.log(x + y);
+
+//STEP 18 - math, add and assign
+let x = 20;
+x += 20;
+window.console.log(x + 20);
+
+//STEP 19 - multiplay and assugn
+let x = 20;
+x *= 5;
+window.console.log(x * 5);
+
+//STEP 20 - divide and assign
+let x = 20/3;
+x /= 1;
+window.console.log(x / 1);
+
+//STEP 21 - Logical operators, an application that evaluates to true and displays the result within the console window
+let x = 5;
+let y = 10;
+window.console.log(x == 5 && y == 10);
+
+//STEP 22 - Logical operators, an application that evaluates to false and displays the result within the console window
+let x = 6;
+let y = 60;
+window.console.log(x === 6 && y ===60);
+
+let x = 10;
+let y = 10;
+window.console.log(x == y !=true);
