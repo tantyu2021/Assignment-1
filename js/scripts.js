@@ -81,3 +81,14 @@ x = null;
 window.console.log(x);
 window.console.log(y); //produce a null value in the console window
 
+
+//STEP 10 - typeof operator on various literals to return the following types within the console window: string, number, Boolean, object, and undefined
+
+typeof "Peter";  // returns string
+typeof 5.8       // returns number
+typeof NaN       //returns number
+typeof false     // returns Boolean
+typeof true      // returns Boolean
+typeof [1,2,3]   // returns object
+typeof myRose    // returns undefined
+typeof null      // returns object
