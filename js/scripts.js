@@ -54,3 +54,8 @@ alert(address);
 
 let firstName;
 firstname = "Mona";
+
+//STEP 6 -Create a variable. Add a number and a string and display the coerced result in the browser’s console window. 
+var total = 100;
+var frutty = "apple";
+window.console.log("We ate" + total + frutty);
