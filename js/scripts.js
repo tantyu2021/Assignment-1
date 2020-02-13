@@ -59,3 +59,9 @@ firstname = "Mona";
 var total = 100;
 var frutty = "apple";
 window.console.log("We ate" + total + frutty);
+
+//STEP 7 -
+
+//STEP 8 - string literal
+var someString = "Who once said, \"Only two things are infinite, the universe and human stupidity, and I'm not sure about the former. \"";
+window.console.log(someString);
