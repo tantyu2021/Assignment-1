@@ -104,3 +104,17 @@ firstName = "Tatiana";
 LastName = "Bergman";
 alert("Hello" + firstName + "" + lastName + "Welcome to the JavaScript class!");
 
+
+//STEP 12 -Declare a variable called name and set it equal to your name. 
+var name = "Tatiana";
+alert("Hello" + name + ", welcome to the JavaScript class!");
+
+//STEP 13 -
+var course = "JavaScript"; 
+alert(course);
+
+//STEP 14 - line break added 
+var course = "JavaScript"; 
+var name = "Zak Ruvalcaba";
+let courseName = "Hello" + name\n"Welcome to the" + course;
+window.console.log(courseName);
