@@ -65,3 +65,19 @@ window.console.log("We ate" + total + frutty);
 //STEP 8 - string literal
 var someString = "Who once said, \"Only two things are infinite, the universe and human stupidity, and I'm not sure about the former. \"";
 window.console.log(someString);
+
+//STEP 9 -Create a variable that produces a null value in the console window. Create a variable that produces an undefined value in the console window.
+
+let x;
+window.console.log(x);  //undefined value
+
+let x = 10;
+let y = 10;
+window.document.write(x-10);
+
+let x = 200;
+let y = null;
+x = null;
+window.console.log(x);
+window.console.log(y); //produce a null value in the console window
+
