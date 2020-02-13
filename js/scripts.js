@@ -17,12 +17,40 @@ let someExpression = 6/5 + 7;
 let aThirdExpression = aSecondExpression + anExpression;
 
 //STEP 4 - declare 9 variables (without definition), use camelCase and Hungarian Notation 
-var fName;
+var firstName;
 var address;
-var lName;
+var lastName;
 var city;
 var state;
 var zipCode;
 var yourAge;
 var referralSource;
 var mayWeContactYou;
+
+//STEP 5 -Take the 9 variables, 3 methods for declaring and assigning values to those variables 
+var firstName = "Mona" ;
+var address = "new";
+var lastName = "Bergman";
+var city = "San Diego";
+var state = "CA";
+var zipCode = "92111";
+var yourAge = "99";
+var referralSource = "awesome";
+var mayWeContactYou = "619-35-35";
+
+var state;
+state = "CA";
+
+var zipCode;
+zipCode = "92111";
+
+var firstName;
+firstname = "Mona";
+alert(firstname);
+
+var address;
+address = "San Diego, Aero Dr, 8355";
+alert(address);
+
+let firstName;
+firstname = "Mona";
