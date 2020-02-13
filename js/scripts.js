@@ -92,3 +92,15 @@ typeof true      // returns Boolean
 typeof [1,2,3]   // returns object
 typeof myRose    // returns undefined
 typeof null      // returns object
+
+
+//STEP 11 - Within an alert box, use the concatenation operator (+) to display text in the alert box that appears. Substitute the name; use 2 concatenation operators to construct this string of text. One after the text “Hello” and a second one after your name and before the comma. 
+
+var firstName = "Zak"; 
+var lastName = "Ruvalcaba";
+alert("Hello" + firstName + "" + lastName + "Welcome to the JavaScript class!");
+
+firstName = "Tatiana";
+LastName = "Bergman";
+alert("Hello" + firstName + "" + lastName + "Welcome to the JavaScript class!");
+
