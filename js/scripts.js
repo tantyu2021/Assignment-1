@@ -58,7 +58,8 @@ firstname = "Mona";
 //STEP 6 -Create a variable. Add a number and a string and display the coerced result in the browser’s console window. 
 var total = 100;
 var frutty = "apple";
-window.console.log("We ate" + total + frutty);
+// alert("We ate" + total + " " + frutty)
+window.console.log("We ate " + total +  " " + frutty);
 
 //STEP 7 -first variable - add Boolean and a string and display the coerced result; second variable - add a number and Boolean and display
 var tri1 = true;
@@ -75,18 +76,18 @@ alert(someString);
 
 //STEP 9 -Create a variable that produces a null value in the console window. Create a variable that produces an undefined value in the console window.
 
-let x;
-window.console.log(x);  //undefined value
+let c;
+window.console.log(c);  //undefined value
 
 let x = 10;
 let y = 10;
 window.document.write(x-10);
 
-let x = 200;
-let y = null;
-x = null;
-window.console.log(x);
-window.console.log(y); //produce a null value in the console window
+let a = 200;
+let b = null;
+a = null;
+window.console.log(a);
+window.console.log(b); //produce a null value in the console window
 
 
 //STEP 10 - typeof operator on various literals to return the following types within the console window: string, number, Boolean, object, and undefined
@@ -137,23 +138,23 @@ var course = prompt("What class are you taking?", course);
 //STEP 17 - math, sum - 
 let x = 10;
 let y = 20;
-window.console.log(x + 20);
+window.console.log(x + y);
 // window.console.log(x + y);
 
 //STEP 18 - math, add and assign
 let x = 20;
 x += 20;
-window.console.log(x + 20);
+window.console.log(x);
 
 //STEP 19 - multiplay and assugn
 let x = 20;
 x *= 5;
-window.console.log(x * 5);
+window.console.log(x);
 
 //STEP 20 - divide and assign
 let x = 20/3;
 x /= 1;
-window.console.log(x / 1);
+window.console.log(x);
 
 //STEP 21 - Comparison and Logical operators, an application that evaluates to true and displays the result within the console window
 let x = 6;
